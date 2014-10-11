@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Challenge</title>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+
+        <!-- link to css files -->
+        <link rel="stylesheet" type="text/css" href="_css/reset.css" />
+        <link rel="stylesheet" type="text/css" href="_css/style.css" />
+        <link rel="stylesheet" href="_css/bootstrap.min.css">
+        <link rel="stylesheet" href="_css/bootstrap-theme.css">
+        <link rel="stylesheet" href="_css/bootstrap-theme.min.css">
+
+        <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
+        <link rel="stylesheet" href="_css/bootstrap.css">
+
+        <link href='http://fonts.googleapis.com/css?family=Cabin' rel='stylesheet' type='text/css'>
+
+
+    </head>
+    <body>
+        <header>
+                <div class="row">
+                    <div class="marketing">
+                        <div class="well">
+                        <h1>BrunchBox!</h1>
+                          <p class="marketing-byline">
+                            <img src="./assets/map_pin_stroke.svg" alt="Brunch box" class="image-class"/>Local options for virtual pair program!</p>
+                     </div>
+                    </div>
+                </div>
+        </header>   
+
+        <div class="container">
+
+	       <div class="row well">
+                <!--<div id="map-canvas" class="thumbnail">
+                </div>-->
+                
+                <div id="distance-form">
+
+                        
+                        <div id="range-slider">
+                            <input type="range" id="radius" name="radius" min=0.1 max=5 value=2.5 step=0.1>
+                        </div>
+                        <br>
+                        <button type="button" class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-search"></span>  Find Brunch Spots Within <span id="range-preview-text">2.5</span> miles              
+                </div>                  
+
+           </div><!--row-->
+
+            <div class="row-fluid">
+            <div id="business-chart">
+                <p>A Challenge is available. Do you want to play?
+                <div class="list-group">
+  <a href="#" class="list-group-item active">
+    <h4 class="list-group-item-heading">List group item heading</h4>
+    <p class="list-group-item-text">...</p>
+  </a>
+</div>
+
+                </p>
+
+               
+            </div>
+            </div><!--row-->
+
+
+           
+            
+
+            <div id="business-popup"></div>
+        </div>
+
+<!-- Load JS here for greater good 
+	=============================--> 
+    <script src="_js/jquery-1.10.2.min.js"></script>
+    <script src="_js/bootstrap.min.js"></script>
+    <script src="_js/bootstrap.js"></script>
+    <script src="_js/script.js"></script>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false&key="></script>
+    <script type="text/javascript" src="http://oauth.googlecode.com/svn/code/javascript/oauth.js"></script>
+    <script type="text/javascript" src="http://oauth.googlecode.com/svn/code/javascript/sha1.js"></script>
+    <script type="text/javascript" src="https://rawgithub.com/padolsey/prettyPrint.js/master/prettyprint.js"></script>    
+     
+    </body>
+</html>
