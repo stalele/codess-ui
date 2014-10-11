@@ -1,0 +1,145 @@
+{
+  "name": "flare",
+  "children": [
+    {
+    "name": "Arcade Fire", 
+    "children": [
+      {"name": "test", "size": 881},
+      {"name": "test", "size": 699},
+      {"name": "test", "size": 680},
+      {"name": "test", "size": 626},
+      {"name": "test", "size": 621},
+      {"name": "test", "size": 592},
+      {"name": "test", "size": 551},
+      {"name": "test", "size": 540},
+      {"name": "test", "size": 503},
+      {"name": "test", "size": 493},
+      {"name": "test", "size": 468},
+      {"name": "test", "size": 381},
+    ]
+    },
+    {
+    "name": "Lorde",
+    "children": [
+      {"name": "test", "size":1036},
+      {"name": "test", "size": 558},
+      {"name": "test", "size": 473},
+      {"name": "test", "size": 419},
+      {"name": "test", "size": 390},
+      {"name": "test", "size": 379},
+      {"name": "test", "size": 348},
+    ]
+    },
+    {
+    "name": "Arctic Monkeys",
+    "children": [
+      {"name": "test", "size": 580},
+      {"name": "test", "size": 444},
+      {"name": "test", "size": 414},
+      {"name": "test", "size": 360},
+      {"name": "test", "size": 349},
+    ]
+    },
+    {
+    "name": "Blood Orange",
+    "children": [
+      {"name": "test", "size": 569},
+      {"name": "test", "size": 549},
+      {"name": "test", "size": 409},
+      {"name": "test", "size": 387},
+      {"name": "test", "size": 367},
+    ]
+    },
+    {
+    "name": "CHVRCHES",
+    "children": [
+      {"name": "test", "size": 563},
+      {"name": "test", "size": 390},
+      {"name": "test", "size": 357},
+      {"name": "test", "size": 356},
+    ]
+    },
+    {
+    "name": "Haim",
+    "children": [
+      {"name": "test", "size": 438},
+      {"name": "test", "size": 408},
+      {"name": "test", "size": 343},
+    ]
+    },
+    {
+    "name": "Lady Gaga",
+    "children": [
+      {"name": "test", "size": 528},
+      {"name": "test", "size": 361},
+    ]
+    },
+    {
+    "name": "Kanye West",
+    "children": [
+      {"name": "test", "size": 401},
+      {"name": "test", "size": 363},
+    ]
+    },
+    {
+    "name": "Katy Perry",
+    "children": [
+      {"name": "test", "size": 471},
+    ]
+    },
+    {
+    "name": "Miley Cyrus",
+    "children": [
+      {"name": "test", "size": 463},
+    ]
+    },
+    {
+    "name": "Drake",
+    "children": [
+      {"name": "test", "size": 442},
+    ]
+    },
+    {
+    "name": "Eminem",
+    "children": [
+      {"name": "test", "size": 425},
+    ]
+    },
+    {
+    "name": "Imagine Dragons",
+    "children": [
+      {"name": "test", "size": 424},
+    ]
+    },
+    {
+    "name": "M83",
+    "children": [
+      {"name": "test", "size": 390},
+    ]
+    },
+    {
+    "name": "One Republic",
+    "children": [
+      {"name": "test", "size": 384},
+    ]
+    },
+    {
+    "name": "Ellie Goulding",
+    "children": [
+      {"name": "test", "size": 362},
+    ]
+    },
+    {
+    "name": "Bastille",
+    "children": [
+      {"name": "test", "size": 357},
+    ]
+    },
+    {
+    "name": "AWOLNATION",
+    "children": [
+      {"name": "test", "size": 348},
+    ]
+    },  
+  ]
+}
