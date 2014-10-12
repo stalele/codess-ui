@@ -5,6 +5,7 @@
 	    <title>CoderDojo</title>
 	    <meta name="Description" content="DESCRIPTION"/>
 	    <meta name="viewport" content="width = device-width, initial-scale=1.0"/>
+	      <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 	    
 	  <!--   <link href='http://fonts.googleapis.com/css?family=Glegoo' rel='stylesheet' type='text/css'/>
 	    <link href='http://fonts.googleapis.com/css?family=Cutive' rel='stylesheet' type='text/css'>
@@ -23,65 +24,71 @@
 
 
         <script src="http://d3js.org/d3.v3.min.js"></script> -->
-	</head>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <style>
+    .button {
+		display: block;
+		width: 140px;
+		height: 50px;
+		background: #4E9CAF;
+		padding: 10px;
+		text-align: center;
+		border-radius: 10px;
+		color: white;
+		
+		}
+	a:hover {
+    font-weight: bold;
+    color: white;
+	}
+    </style>
+
+</head>
 	
 	<body>
 	<div id="mapWrapper">
+		<div class="row">
+  <div class="col-md-4"><img alt="" src="images/14Boy.JPG"></div>
+  <div class="col-md-4"><br/><div class="progress">
+  <div align="center" class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+    <span class="sr-only">60% Complete</span>
+  </div>
+</div></div>
+  <div class="col-md-4"><img alt="" src="images/10Girl.JPG"></div>
+</div>
 			
-			<div id="pairprogram" align="center">
-				<img alt="" src="images/14Boy.JPG">
-				<img alt="" src="images/Progressbar.JPG">
-				<img alt="" src="images/10Girl.JPG">
+			<div class="row" id="pairprogram" align="center">
+				
+			
+				
 				<div><h2> </div>
-				
-				<table>
-				<tr>
-				<font  size="6">What HTML tag is used to create a bulleted list?</font><h2>
-				</h2></tr>
-				
-				<tr>
-				<td><input type="radio" name="sex" value="ul"><font  size="6">&ltul&gt</font><br>
-				</td>
-				</tr>
-				
-				<tr>
-				<td><input type="radio" name="sex" value="lb"><font  size="6">&ltlb&gt</font><br>
-				</td>
-				</tr>
-				
-				<tr>
-				<td><input type="radio" name="sex" value="list"><font  size="6">&ltlist&gt</font><br>
-				</td>
-				</tr>
-				
-				<tr>
-				<td><input type="radio" name="sex" value="ol"><font  size="6">&ltol&gt</font><br>
-				</td>
-				</tr>
-				
-				<tr></tr>
-				<tr></tr>
-				<tr></tr>
-				
-				<tr>
-				<td><a href="end.html"><font  size="3">Submit</font></a><br></button>
-				</td>
-				
-				<td></td>
-				<td></td>
-				<td></td>
-				
-				<td><a href="collab.html"><font  size="3">Screen share with Skype</font></a><br></button></td>
-				</tr>
-				
-				<tr></tr>
-				<tr></tr>
-				<tr></tr>
-				
-				
-				</table>
+					<div class="btn-group" data-toggle="buttons">
+						<h2>What HTML tag is used to create a bulleted list?</h2>
+						<ul class="nav nav-stacked">
+    <li><a href="#"><input type="radio" name="sex" value="ul"><font  size="3"> &ltul&gt</font></a></li>
+    <li><a href="#"><input type="radio" name="sex" value="lb"><font  size="3"> &ltlb&gt</font></a></li>
+     <li><a href="#"><input type="radio" name="sex" value="ul"><font  size="3"> list </font></a></li>
+    <li><a href="#"><input type="radio" name="sex" value="lb"><font  size="3"> none</font></a></li>
+</ul>
+
+			
+			</div>
+			
 							
 			</div>
+			<div class="row" align="center">
+			<a href=end.html  class="btn btn-clear btn-lg">
+  Submit
+</button>
+<a href=collab.html class="btn btn-default btn-lg" >
+  Brainstorm
+</a>
+
+</div>
+
+
 	</div>
 
 	
